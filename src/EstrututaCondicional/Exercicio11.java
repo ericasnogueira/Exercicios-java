@@ -1,2 +1,21 @@
-package EstrututaCondicional;public class Exercicio11 {
+package EstrututaCondicional;
+
+import java.util.Scanner;
+
+public class Exercicio11 {
+    public static void main(String[] args) {
+        /*
+            Faça um programa que mostre os números pares entre 1 e 100, inclusive.
+         */
+        Scanner entrada = new Scanner(System.in);
+
+        int numero = 2;
+
+        while (numero <= 100){
+            if (numero % 2 == 0){
+                System.out.println(numero);
+            }
+            numero ++;
+        }
+    }
 }
