@@ -37,7 +37,7 @@ public class Exercicio08 {
             imposto = diferenca * 0.08;
         }
         if (imposto > 0){
-            System.out.println("R$ " + imposto);
+            System.out.printf("R$ %.2f", imposto);
         } else {
             System.out.println("Isento");
         }
