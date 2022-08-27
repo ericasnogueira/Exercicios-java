@@ -1,8 +1,8 @@
-package EstrututaCondicional;
+package EstruturaRepetitivas;
 
 import java.util.Scanner;
 
-public class Exercicio11 {
+public class ExercicioWhile04 {
     public static void main(String[] args) {
         /*
             Faça um programa que mostre os números pares entre 1 e 100, inclusive.
