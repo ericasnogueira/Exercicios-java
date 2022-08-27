@@ -17,7 +17,7 @@ public class Exercicio01 {
         segundo = entrada.nextInt();
         soma = primeiro + segundo;
 
-        System.out.println("SOMA : " + soma);
+        System.out.println("SOMA = "+ soma);
 
 
 
