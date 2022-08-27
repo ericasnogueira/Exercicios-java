@@ -2,7 +2,7 @@ package EstruturaRepetitivas;
 
 import java.util.Scanner;
 
-public class Exercicio03While {
+public class ExercicioWhile03 {
     public static void main(String[] args) {
         /*
         Um Posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes. Escreva
