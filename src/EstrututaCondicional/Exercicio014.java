@@ -11,9 +11,9 @@ public class Exercicio014 {
          */
         Scanner entrada = new Scanner(System.in);
 
-        String animal1 = entrada.next();
-        String animal2 = entrada.next();
-        String animal3 = entrada.next();
+        String animal1 = entrada.nextLine();
+        String animal2 = entrada.nextLine();
+        String animal3 = entrada.nextLine();
 
         // .equals é como se fosse o == para string .
 
