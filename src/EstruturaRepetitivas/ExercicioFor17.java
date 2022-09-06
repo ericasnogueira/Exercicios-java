@@ -2,7 +2,7 @@ package EstruturaRepetitivas;
 
 import java.util.Scanner;
 
-public class ExericioFor15 {
+public class ExercicioFor17 {
     public static void main(String[] args) {
         /*
         Leia um valor inteiro N. Este valor será a quantidade de valores que serão lidos em seguida.
