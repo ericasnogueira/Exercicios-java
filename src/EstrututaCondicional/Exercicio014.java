@@ -15,6 +15,8 @@ public class Exercicio014 {
         String animal2 = entrada.next();
         String animal3 = entrada.next();
 
+        // .equals é como se fosse o == para string .
+
         if(animal1.equals("vertebrado") && animal2.equals("ave") && animal3.equals("carnivoro")){
             System.out.println("aguia");
         } else if (animal1.equals("vertebrado") && animal2.equals("ave") && animal3.equals("onivoro")) {
