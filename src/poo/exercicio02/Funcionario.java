@@ -11,5 +11,16 @@ public class Funcionario {
     double salarioBruto;
     double taxa;
 
+    public  double novoSalario(){
+        return salarioBruto - taxa;
+    }
 
+    public void aumentarSalario(double percentage){
+         salarioBruto += salarioBruto * percentage/100;
+    }
+
+    @Override
+    public String toString() {
+        return nome + ", $ " + String.format("%.2f", novoSalario());
+    }
 }
