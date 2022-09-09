@@ -15,13 +15,6 @@ public class Principal {
         aluno.nota2 = entrada.nextDouble();
         aluno.nota3 = entrada.nextDouble();
 
-        if(aluno.notaTotal() >60){
-            System.out.printf("FINAL GRADE = %.2f%n", aluno.notaTotal());
-            System.out.println("PASS");
-        } else {
-            System.out.printf("FINAL GRADE = %.2f%n", aluno.notaTotal());
-            System.out.println("FAILED");
-            System.out.printf("MISSING %.2f POINTS", 60 - aluno.notaTotal());
-        }
+        System.out.println(aluno.toString());
     }
 }

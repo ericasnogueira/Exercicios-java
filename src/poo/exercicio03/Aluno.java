@@ -15,4 +15,14 @@ public class Aluno {
     public  double notaTotal (){
         return nota1 + nota2 + nota3;
     }
+    public String toString(){
+        if(notaTotal() >60){
+            return "FINAL GRADE = " + String.format("%.2f%n" , notaTotal())  +
+                    "PASS";
+        } else {
+            return "FINAL GRADE = " + String.format("%.2f%n" , notaTotal()) +
+             "FAILED" + "\n" +
+            "MISSING " + String.format("%.2f POINTS", 60 - notaTotal());
+        }
+    }
 }
