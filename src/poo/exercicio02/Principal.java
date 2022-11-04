@@ -13,7 +13,7 @@ public class Principal {
         System.out.print("Nome : ");
         funcionario.nome = entrada.nextLine();
         System.out.print("Salario Bruto : ");
-        funcionario.salarioBruto = entrada.nextDouble();
+        funcionario.salariobruto = entrada.nextDouble();
         System.out.print("Taxa : ");
         funcionario.taxa = entrada.nextDouble();
         System.out.println(funcionario.toString());

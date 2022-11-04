@@ -8,15 +8,15 @@ public class Funcionario {
      */
     //atributos
     String nome;
-    double salarioBruto;
+    double salariobruto;
     double taxa;
 
     public  double novoSalario(){
-        return salarioBruto - taxa;
+        return salariobruto - taxa;
     }
 
     public void aumentarSalario(double percentage){
-         salarioBruto += salarioBruto * percentage/100;
+         salariobruto += salariobruto * percentage/100;
     }
 
     @Override
