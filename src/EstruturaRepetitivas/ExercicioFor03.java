@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class ExercicioFor03 {
     public static void main(String[] args) {
         /*
-        Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
-Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo, mostrando
-essas informações conforme exemplo (use a palavra "in" para dentro do intervalo, e "out" para fora do intervalo)
+        Leia um valor inteiro N. Este valor serï¿½ a quantidade de valores inteiros X que serï¿½o lidos em seguida.
+Mostre quantos destes valores X estï¿½o dentro do intervalo [10,20] e quantos estï¿½o fora do intervalo, mostrando
+essas informaï¿½ï¿½es conforme exemplo (use a palavra "in" para dentro do intervalo, e "out" para fora do intervalo)
          */
         Scanner entrada = new Scanner(System.in);
 
@@ -16,11 +16,11 @@ essas informações conforme exemplo (use a palavra "in" para dentro do intervalo,
         int in = 0;
         int out = 0;
 
-        for (int i = 0; i < numero; i++){
+        for (int i = 0; i < numero; i++) {
 
             int x = entrada.nextInt();
 
-            if (x >= 10 && x <= 20){
+            if (x >= 10 && x <= 20) {
                 in += 1;
             } else {
                 out += 1;

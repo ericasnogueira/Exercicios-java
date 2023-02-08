@@ -11,9 +11,9 @@ public class ExercicioFor16 {
         Scanner entrada = new Scanner(System.in);
         int numero = entrada.nextInt();
 
-        for(int i = 1; i <=10;i++){
+        for (int i = 1; i <= 10; i++) {
             int somo = i * numero;
-            System.out.println(i + " x " +numero + " = " + somo);
+            System.out.println(i + " x " + numero + " = " + somo);
         }
     }
 }

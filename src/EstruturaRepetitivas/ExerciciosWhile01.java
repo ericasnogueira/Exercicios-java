@@ -5,20 +5,21 @@ import java.util.Scanner;
 public class ExerciciosWhile01 {
     public static void main(String[] args) {
         /*
-        Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha
+        Escreva um programa que repita a leitura de uma senha atï¿½ que ela seja vï¿½lida. Para cada leitura de senha
         incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser
-        impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.
+        impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta ï¿½ o valor 2002.
          */
 
         Scanner entrada = new Scanner(System.in);
-        int senha ;
+        int senha;
 
-        senha = entrada.nextInt();;
+        senha = entrada.nextInt();
+        ;
 
-        while ( senha != 2002){
+        while (senha != 2002) {
             System.out.println("Senha Invalida");
 
-            //chamanda a leitura de entrada novamente para não ficar no loop infinito
+            //chamanda a leitura de entrada novamente para nï¿½o ficar no loop infinito
             senha = entrada.nextInt();
         }
         System.out.println("Acesso Permitido");

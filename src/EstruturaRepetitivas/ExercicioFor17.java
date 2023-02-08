@@ -5,31 +5,31 @@ import java.util.Scanner;
 public class ExercicioFor17 {
     public static void main(String[] args) {
         /*
-        Leia um valor inteiro N. Este valor será a quantidade de valores que serão lidos em seguida.
-        Para cada valor lido, mostre uma mensagem em inglês dizendo se este valor lido é par (EVEN),
-        ímpar (ODD), positivo (POSITIVE) ou negativo (NEGATIVE). No caso do valor ser igual a zero (0),
-        embora a descrição correta seja (EVEN NULL), pois por definição zero é par, seu programa deverá imprimir
+        Leia um valor inteiro N. Este valor serï¿½ a quantidade de valores que serï¿½o lidos em seguida.
+        Para cada valor lido, mostre uma mensagem em inglï¿½s dizendo se este valor lido ï¿½ par (EVEN),
+        ï¿½mpar (ODD), positivo (POSITIVE) ou negativo (NEGATIVE). No caso do valor ser igual a zero (0),
+        embora a descriï¿½ï¿½o correta seja (EVEN NULL), pois por definiï¿½ï¿½o zero ï¿½ par, seu programa deverï¿½ imprimir
          apenas NULL.
          */
         Scanner entrada = new Scanner(System.in);
 
         int numero = entrada.nextInt();
 
-        for(int i =1; i <=numero; i++){
+        for (int i = 1; i <= numero; i++) {
             int n = entrada.nextInt();
 
-            if(n % 2 ==0 && n > 0){
+            if (n % 2 == 0 && n > 0) {
                 System.out.println("EVEN POSITIVE");
             } else if (n % 2 == 0 && n < 0) {
                 System.out.println("EVEN NEGATIVE");
-            } else if ( n % 2 ==1 && n > 0) {
+            } else if (n % 2 == 1 && n > 0) {
                 System.out.println("ODD POSITIVE");
-            } else if (n ==0) {
+            } else if (n == 0) {
                 System.out.println("NULL");
             } else {
-                    System.out.println("ODD NEGATIVE");
-                }
+                System.out.println("ODD NEGATIVE");
             }
+        }
     }
 
 }

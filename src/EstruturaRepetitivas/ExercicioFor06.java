@@ -6,13 +6,13 @@ public class ExercicioFor06 {
     public static void main(String[] args) {
         /*
         Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N-1) * (N-2) * (N-3) * ... * 1.
-        Lembrando que, por definição, fatorial de 0 é 1.
+        Lembrando que, por definiï¿½ï¿½o, fatorial de 0 ï¿½ 1.
          */
         Scanner entrada = new Scanner(System.in);
         int numero = entrada.nextInt();
 
         int fat = 1;
-        for (int i = 1; i <= numero;i++ ){
+        for (int i = 1; i <= numero; i++) {
             fat = fat * i;
 
         }

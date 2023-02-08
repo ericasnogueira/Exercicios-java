@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class ExercicioWhile04 {
     public static void main(String[] args) {
         /*
-            Faça um programa que mostre os números pares entre 1 e 100, inclusive.
+            Faï¿½a um programa que mostre os nï¿½meros pares entre 1 e 100, inclusive.
          */
         Scanner entrada = new Scanner(System.in);
 
         int numero = 2;
 
-        while (numero <= 100){
-            if (numero % 2 == 0){
+        while (numero <= 100) {
+            if (numero % 2 == 0) {
                 System.out.println(numero);
             }
-            numero ++;
+            numero++;
         }
     }
 }

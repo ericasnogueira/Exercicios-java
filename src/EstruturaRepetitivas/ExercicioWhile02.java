@@ -7,23 +7,23 @@ public class ExercicioWhile02 {
 
         /*
         Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema
-        cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo será encerrado quando pelo
-        menos uma de duas coordenadas for NULA (nesta situação sem escrever mensagem alguma).
+        cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo serï¿½ encerrado quando pelo
+        menos uma de duas coordenadas for NULA (nesta situaï¿½ï¿½o sem escrever mensagem alguma).
          */
         Scanner entrada = new Scanner(System.in);
-        int primeiro,segundo;
+        int primeiro, segundo;
 
         primeiro = entrada.nextInt();
         segundo = entrada.nextInt();
 
-        while (primeiro != 0 || segundo !=0){
-            if (primeiro > 0 && segundo > 0){
+        while (primeiro != 0 || segundo != 0) {
+            if (primeiro > 0 && segundo > 0) {
                 System.out.println("primeiro");
             } else if (primeiro < 0 && segundo > 0) {
                 System.out.println("segundo");
             } else if (primeiro < 0 && segundo < 0) {
                 System.out.println("terceiro");
-            } else if(primeiro > 0 && segundo < 0){
+            } else if (primeiro > 0 && segundo < 0) {
                 System.out.println("quarto");
             } else {
                 break;
